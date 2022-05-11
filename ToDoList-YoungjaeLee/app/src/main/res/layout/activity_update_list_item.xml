@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_grey">
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flexboxLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/update_and_redirect_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/bg_grey"
+            android:tint="@color/font_white"
+            android:contentDescription="@string/back_arrow_icon_description"
+            app:srcCompat="?attr/actionModeCloseDrawable"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="5dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/update_view_title"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font_white"
+            android:textSize="@dimen/font_size_update_title"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="10dp"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="16dp"
+            />
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+
+    <EditText
+        android:id="@+id/input_description"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:background="@color/bg_grey"
+        android:scrollHorizontally="false"
+        android:gravity="start"
+        android:hint="@string/hint_description"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/font_white"
+        android:textColorHint="@color/font_light_grey"
+        tools:ignore="MissingConstraints"
+        android:autofillHints=""
+        app:layout_constraintTop_toBottomOf="@+id/flexboxLayout1"
+        app:layout_constraintBottom_toTopOf="@+id/bottom"/>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="683dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/created_date"
+            android:layout_width="362dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:gravity="center_vertical"
+            android:padding="10sp"
+            android:text=""
+            android:textColor="@color/font_light_grey"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/trash_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="right"
+            android:background="@color/bg_grey"
+            android:contentDescription="@string/remove_icon_description"
+            android:tint="@color/font_light_grey"
+            app:srcCompat="@android:drawable/ic_menu_delete"
+            tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/menu_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/outline_more_vert_24"
+        tools:layout_editor_absoluteX="342dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@color/bg_grey"
+        android:tint="@color/font_white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:onClick="showPopup"
+        android:contentDescription="@string/menu_icon_description" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DMIT2504OA01lab2YoungjaeLee" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorBackground">@color/bg_grey</item>
+        <item name="android:textColor">@color/font_white</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogTheme.Dark</item>
+    </style>
+
+    <style name="AlertDialogTheme.Dark" parent="android:Theme.DeviceDefault.Dialog.Alert" >
+        <item name="android:colorBackground">@color/bg_grey</item>
+    </style>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:gravity="start"
+    android:background="@color/bg_grey"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_item_pick_theme"
+        android:textColor="@color/font_white"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/algo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/menu_item_theme_colour"
+        android:textColor="@color/font_light_blue"
+        android:layout_marginBottom="10dp"/>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flexboxLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingClass">
+
+        <ImageButton
+            android:id="@+id/color_main"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/bg_grey"
+            android:layout_marginEnd="10dp"
+            app:srcCompat="@drawable/button"
+            android:contentDescription="@string/theme_main_light_blue"/>
+
+        <ImageButton
+            android:id="@+id/color_second"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/bg_grey"
+            android:tint="@color/theme_green"
+            android:layout_marginEnd="10dp"
+            app:srcCompat="@drawable/button"
+            android:contentDescription="@string/theme_second_green"/>
+
+        <ImageButton
+            android:id="@+id/color_third"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/bg_grey"
+            android:tint="@color/theme_pink"
+            app:srcCompat="@drawable/button"
+            android:contentDescription="@string/theme_third_pink"/>
+    </com.google.android.flexbox.FlexboxLayout>
+</LinearLayout>

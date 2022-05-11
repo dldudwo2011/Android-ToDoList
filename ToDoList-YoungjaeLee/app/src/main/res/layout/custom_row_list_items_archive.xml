@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_grey"
+    android:radius="10dp"
+    android:padding="5dp"
+    android:layout_marginBottom="5dp">
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flexboxLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:alignContent="space_between"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/custom_row_list_title"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font_white"
+            android:textSize="@dimen/font_size_update_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/custom_row_status"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font_white"
+            android:layout_below="@id/custom_row_list_title"
+            android:textSize="@dimen/font_size_update_title"
+            android:textStyle="bold" />
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <TextView
+        android:id="@+id/custom_row_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/font_white"
+        android:textSize="@dimen/font_size_title"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/custom_row_post_date"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/font_white"
+        android:textSize="@dimen/font_size_update_title"
+        android:textStyle="italic"
+        android:typeface="sans"
+        android:layout_gravity="end"/>
+</LinearLayout>

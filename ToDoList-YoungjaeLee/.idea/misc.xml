@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.264" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/drawable/button-green.xml" value="0.1" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/drawable/button-pink.xml" value="0.1" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/drawable/button.xml" value="0.2645" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/drawable/myrect.xml" value="0.185" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/drawable/outline_format_size_24.xml" value="0.264" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/drawable/outline_key_20.xml" value="0.264" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/drawable/outline_key_24.xml" value="0.264" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/drawable/outline_list_24.xml" value="0.219" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/drawable/outline_more_vert_24.xml" value="0.1" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/drawable/outline_palette_24.xml" value="0.264" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/drawable/outline_password_20.xml" value="0.264" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/drawable/outline_password_24.xml" value="0.219" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/drawable/outline_perm_identity_24.xml" value="0.264" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/activity_add_item.xml" value="0.2" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/activity_archived_items.xml" value="0.31567028985507245" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/activity_edit_description.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/activity_list_items.xml" value="0.22" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/activity_update_list_item.xml" value="0.25" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/custom_dialog_add_item.xml" value="0.22" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/custom_dialog_new_list.xml" value="0.22" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/custom_dialog_password.xml" value="0.22" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/custom_dialog_theme.xml" value="0.271875" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/custom_dialog_username.xml" value="0.271875" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/custom_list_item_row.xml" value="0.31567028985507245" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/custom_row.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/custom_row_list_items.xml" value="0.194140625" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/custom_row_list_items_archive.xml" value="0.1" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/custom_row_main.xml" value="0.194140625" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/layout/delete_dialog.xml" value="0.3625" />
+        <entry key="..\:/Users/skske/Desktop/DMIT2504/Assignments/Lab2/DMIT2504OA01lab2YoungjaeLee/app/src/main/res/menu/menu_main.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

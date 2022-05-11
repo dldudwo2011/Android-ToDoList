@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_size_list_item">12sp</dimen>
+    <dimen name="font_size_title">30sp</dimen>
+    <dimen name="font_size_update_title">20sp</dimen>
+</resources>

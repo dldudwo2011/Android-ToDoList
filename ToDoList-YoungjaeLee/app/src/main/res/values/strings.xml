@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">DMIT2504 Lab 2 by Youngjae Lee</string>
+    <string name="title_main">Local Lists</string>
+    <string name="title_list_item_view">Tasks</string>
+    <string name="menu_item_login_username">Change username</string>
+    <string name="username_placeholder">Username</string>
+    <string name="menu_item_login_password">Change password</string>
+    <string name="password_placeholder">Password</string>
+    <string name="menu_item_login_username_input">Set username</string>
+    <string name="menu_item_login_apply_button">Apply</string>
+    <string name="ok">OK</string>
+    <string name="cancel" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="delete">DELETE</string>
+    <string name="delete_dialog_title">Are you sure?</string>
+    <string name="menu_item_font">Change font</string>
+    <string name="menu_item_theme">Change theme</string>
+    <string name="menu_item_pick_font">Pick a font size</string>
+    <string name="menu_item_pick_theme">Pick a theme</string>
+    <string name="menu_item_theme_colour">Colour</string>
+    <string name="menu_item_font_sizes">Sizes</string>
+    <string name="menu_item_font_20sp">20sp</string>
+    <string name="archived_button_main">Archived items</string>
+    <string name="title_archived_items_view">Completed</string>
+    <string name="add_item_view_button">Add</string>
+    <string name="hint_description">Edit description</string>
+    <string name="hint_title">Add title</string>
+    <string name="edit_description">Create portfolio</string>
+    <string name="add_list">New list</string>
+    <string name="add_icon_description">add-icon</string>
+    <string name="remove_icon_description">trash-icon</string>
+    <string name="add_icon2_description">add-icon2</string>
+    <string name="menu_icon_description">menu-icon</string>
+    <string name="back_arrow_icon_description">back-arrow-icon</string>
+    <string name="list_icon_description">list-icon</string>
+    <string name="archive_button_description">archive-button</string>
+    <string name="new_list_placeholder">Enter list title</string>
+    <string name="new_list">New list</string>
+    <string name="add_task">Add a task</string>
+    <string name="create_list">CREATE LIST</string>
+    <string name="to_do">TODO</string>
+    <string name="theme_main_light_blue">LightBlue</string>
+    <string name="theme_second_green">Green</string>
+    <string name="theme_third_pink">Pink</string>
+
+</resources>

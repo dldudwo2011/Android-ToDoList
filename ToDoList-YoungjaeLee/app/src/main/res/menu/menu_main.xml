@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_main">
+    <item
+        android:id="@+id/menu_item_username"
+        android:icon="@drawable/outline_perm_identity_24"
+        android:title="@string/menu_item_login_username"/>
+    <item
+        android:id="@+id/menu_item_password"
+        android:icon="@drawable/outline_password_24"
+        android:title="@string/menu_item_login_password"/>
+    <item
+        android:id="@+id/menu_item_font"
+        android:icon="@drawable/outline_format_size_24"
+        android:title="@string/menu_item_font"/>
+    <item
+        android:id="@+id/menu_item_theme"
+        android:icon="@drawable/outline_palette_24"
+        android:title="@string/menu_item_theme"/>
+</menu>
